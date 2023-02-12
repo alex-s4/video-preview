@@ -1,9 +1,9 @@
-const videoElem = document.getElementsByTagName("video");
+const videoElem = document.getElementById("main-vid");
 
-videoElem[0].onmouseover = function() {
+videoElem.onmouseover = function() {
     this.play();
 }
 
-videoElem[0].onmouseleave = function() {
+videoElem.onmouseleave = function() {
     this.pause();
 }
